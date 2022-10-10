@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>What is your weather?</h1>
+
+    <div id="zipAsk" name="zipAsk">
+        <form>
+            <label>Zipcode:</label>
+            <input type="text" id="zip" class="zip" placeholder="Enter the Zipcode" required>
+        </form>
+        <button id="button" onclick="showWeather();">Submit</button>
+    </div>
+    <div id="weatherShow" name="weatherShow" class="">
+
+              
+        <h2 id="temp"></h2>
+        <p>
+            <span id="icon"></span>
+        </p>
+        <h2 id="desc"></h2>
+        <h3 id="location"></h3> 
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
